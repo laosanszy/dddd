@@ -9,7 +9,7 @@ assertion = Assert.Assertions()
 url = 'http://192.168.1.137:8080/'
 head = {}
 idsList=[]
-excel_list = read_excel.read_excel_list('../document/youhuijuan.xlsx')
+excel_list = read_excel.read_excel_list('./document/youhuijuan.xlsx')
 length = len(excel_list)
 for i in range(length):
     idsList.append(excel_list[i].pop())
